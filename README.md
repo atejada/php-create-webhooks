@@ -1,2 +1,2 @@
-# php-create-webhooks-
+# php-create-webhooks
 Create webhooks using PHP
