@@ -15,7 +15,7 @@ $headr[] = 'Authorization: Bearer ' . $_ENV['V3_TOKEN'];
 // Array with information needed to create the webhook
 $data = array(
             'description' => "My PHP Webhook",
-            'trigger_types' => array("event.created"),
+            'trigger_types' => array("message.created"),
             'webhook_url' => "https://yourserver.koyeb.app/webhook",
             'notification_email_addresses' => array($_ENV['EMAIL'])
         );
